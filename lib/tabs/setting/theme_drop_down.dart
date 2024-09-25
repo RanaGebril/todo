@@ -14,9 +14,9 @@ class ThemeDropDown extends StatelessWidget {
       padding: EdgeInsets.symmetric(horizontal: 10),
       margin: EdgeInsets.only(left: 15),
       decoration: BoxDecoration(
-        color: provider_object==ThemeMode.light
+        color: provider_object.AppTheme==ThemeMode.light
         ?Appcolors.whiteColor
-        :Appcolors.secondary_dark,
+        :Appcolors.primary_dark,
         border: Border.all(color: Appcolors.blueColor, width: 2),
       ),
       child: DropdownButton<ThemeMode>(

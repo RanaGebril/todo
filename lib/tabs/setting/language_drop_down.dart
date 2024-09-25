@@ -13,7 +13,7 @@ class LanguageDropDown extends StatelessWidget {
       padding: EdgeInsets.symmetric(horizontal: 5),
       margin: EdgeInsets.only(left: 15),
       decoration: BoxDecoration(
-        color: provider_object == ThemeMode.light
+        color: provider_object.AppTheme == ThemeMode.light
             ? Appcolors.whiteColor
             : Appcolors.secondary_dark,
         border: Border.all(color: Appcolors.blueColor, width: 2),
@@ -41,7 +41,7 @@ class LanguageDropDown extends StatelessWidget {
           iconSize: 25,
           iconEnabledColor: Appcolors.blueColor,
           icon: Icon(Icons.keyboard_arrow_down),
-          dropdownColor: provider_object == ThemeMode.light
+          dropdownColor: provider_object.AppTheme == ThemeMode.light
               ? Appcolors.whiteColor
               : Appcolors.secondary_dark,
           borderRadius: BorderRadius.circular(20),

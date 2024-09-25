@@ -28,7 +28,7 @@ class _SplashScreenState extends State<SplashScreen> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          Image.asset("assets/images/logo.png",
+          Image.asset("assets/images/todo_logo.png",
               height: MediaQuery.of(context).size.height * 0.715),
           Image.asset(
             "assets/images/routeBlue.png",
